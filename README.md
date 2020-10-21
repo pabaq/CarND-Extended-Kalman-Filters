@@ -158,9 +158,9 @@ be used for this task. If it is a lidar measurement it can directly be used to
 initialize the states location. The radar measurement needs to be converted from 
 polar into cartesian coordinates. In both cases the velocity is initialized to zero.
 
-| Initialization by radar measurement | Initialization by lidar measurement | 	
-| :----------: | :-------------: |  	
-| ![][init_radar] | ![][init_lidar] |  
+| Initialization by lidar measurement | Initialization by radar measurement | 	
+| :----------: | :-------------: |
+| ![][init_lidar] | ![][init_radar] |  
 
 Since we are more confident on the bicycles initial position than on its velocity
 we will initialize the state covariance in accordance to our uncertainty: low 
