@@ -235,6 +235,7 @@ illustration
 | linear model | nonlinear model | linearized model | 	
 | :----------: | :----------: | :----------: |
 | ![][linear_model] | ![][nonlinear_model] | ![][linearized_model]
+
 Source: [Robot Mapping Extended Kalman Filter][EKF]
 
 Here is where the **Extended Kalman Filter (EKF)** comes into play. In order to be 
