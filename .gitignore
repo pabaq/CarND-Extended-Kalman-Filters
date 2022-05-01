@@ -1,1 +1,7 @@
-utilities/
+**/.vscode
+**/.idea
+**/__pycache__
+
+build
+utilities
+ide_profiles
