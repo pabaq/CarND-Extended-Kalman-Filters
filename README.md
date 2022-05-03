@@ -3,7 +3,7 @@ project resources and build instructions can be found [here][Project], the
 required simulator [here][Simulator].
 
 
-## Using sensor fusion to track the state of a moving object
+## Using sensor fusion to track an object
 
 The goal of this project is to develop an **Extended Kalman Filter** capable
 of tracking a moving object near our vehicle. The Kalman Filter will continuously 
@@ -205,7 +205,7 @@ The increase of uncertainty is realized mathematically by adding the process cov
 ***Q*** of the current time step. We recall that the process covariance contains the 
 acceleration dependent variances.
 
-### 3. Determination of the innovation and the Kalman gain 
+### 3. Innovation and the Kalman gain 
  
 After the prediction, a laser or radar measurement may come in. This measurement is used
 to determine the innovation ***y***. The innovation is defined as the difference between
